@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign_up</title>
+    <link rel="stylesheet" href="signup style.css">
+</head>
+<body>
+    
+    <div class="outer_box">
+        <div class="inner_box">
+            <header class="signup_head">
+                <h2>Sign Up</h2>
+                <h4>Fill up your details</h4>
+            </header>
+
+            <main class="signup_body">
+                <form action="#">
+                    <div class="name">
+                        <label for="name">Full Name</label><br>
+                        <input type="text" id="name" placeholder="Soumya Sankar Das" required>
+                    </div>
+                    <div class="mail">
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" placeholder="abcd@gmail.com">
+                    </div>
+                    <div class="phn_no">
+                        <label for="Phone_no">Phone no</label><br>
+                        <input type="tel" id="Phone_no" placeholder="0123456789" required>
+                    </div>
+                    <div class="pswd">
+                        <label for="pswd">Password</label><br>
+                        <input type="password" id="pswd" placeholder="At least 8 characters" required>
+                    </div>
+                    <div class="retype_pswd">
+                        <label for="retype_pswd">Retype Password</label><br>
+                        <input type="password" id="retype_pswd" placeholder="Retype the password" required>
+                    </div>
+                    <div class="reset">
+                        <label for="reset">Reset the form</label>
+                        <input type="reset" id="reset" value="Reset">
+                    </div>
+                    <div class="read_agreement">
+                        <input type="checkbox" name="agreement" id="check_it" required>
+                        <label for="check_it">I've read the agreements</label>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Create Account">
+                    </div>
+                </form>
+            </main>
+
+            <footer class="signup_foot">
+                <div class="exixting_acc">
+                    Already have an account ?? <div>    
+                    <a href="./login.html"><button>Log in</button></a>
+                </div>
+            </footer>
+        </div>
+
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+        <div class="circle c3"></div>
+        <div class="circle c4"></div>
+    </div>
+
+</body>
+</html>
